@@ -1,7 +1,7 @@
 /* 
     Document   : xstyle
     Created on : Jan 9, 2013, 10:56:46 AM
-    Author     : Aspire
+    Author     : Nishant Kumar
     Description:
         Purpose of the stylesheet follows.
 */
@@ -10,7 +10,7 @@ root {
     display: block;
 }
 .navbar-inner{
-    background-color: #edeff2;
+    background-color: #dddddd;
     border: #515151;
 }
 .navbar .brand {
