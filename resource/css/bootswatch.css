@@ -376,7 +376,7 @@ body .one .bsa_it_p {
         top: 40px;
         left: 0;
         right: 0;
-        z-index: 1020; /* 10 less than .navbar-fixed to prevent any overlap */
+        z-index: 1030; /* 10 less than .navbar-fixed to prevent any overlap */
         border-color: #d5d5d5;
         border-width: 0 0 1px; /* drop the border on the fixed edges */
         -webkit-border-radius: 0;
@@ -388,8 +388,8 @@ body .one .bsa_it_p {
         filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); /* IE6-9 */
     }
     .subnav-fixed .nav {
-        width: 938px;
-        margin: 0 auto;
+        /*width: 938px;*/
+        /*margin-top: 15%;*/
         padding: 0 1px;
     }
     .subnav .nav > li:first-child > a,
@@ -411,6 +411,6 @@ body .one .bsa_it_p {
 @media (min-width: 1210px) {
 
     .subnav-fixed .nav {
-        width: 1168px; /* 2px less to account for left/right borders being removed when in fixed mode */
+        /*width: 1168px;  2px less to account for left/right borders being removed when in fixed mode*/ 
     }
 }

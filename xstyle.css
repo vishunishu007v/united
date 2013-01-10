@@ -24,3 +24,8 @@ root {
     color: #dd4814;
 }
 .navbar .nav li.dropdown>.dropdown-toggle .caret{border-top-color:#dd4814;border-bottom-color:#dd4814;}
+
+.subnav-fixed .nav>li>a{display:inline-block;}
+.subnav-fixed{
+    margin-top: 7%;
+}
