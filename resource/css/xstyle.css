@@ -1,0 +1,40 @@
+/* 
+    Document   : xstyle
+    Created on : Jan 9, 2013, 10:56:46 AM
+    Author     : Nishant Kumar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.navbar-inner{
+    background-color: #dddddd;
+    border: #515151;
+}
+/*.navbar .brand {
+    color: #0e0401;
+}*/
+.navbar .nav>li>a{border-right:1px solid rgba(0, 0, 0, 0.2);border-left:1px solid rgba(0, 0, 0, 0.2);}.navbar .nav>li>a:hover{border-right:1px solid rgba(0, 0, 0, 0.2);}
+.navbar .nav>li>a:focus,.navbar .nav>li>a:hover{color: #920001;}
+.navbar .nav li.dropdown.open>.dropdown-toggle,.navbar .nav li.dropdown.active>.dropdown-toggle,.navbar .nav li.dropdown.open.active>.dropdown-toggle{background-color:#E9E9E9;color:#920001;}
+/*.nav-tabs .open .dropdown-toggle,.nav-pills .open .dropdown-toggle,.nav>li.dropdown.open.active>a:hover{border-right:1px solid #b7bfcb;border-left:1px solid #b7bfcb;}*/
+/*.navbar-fixed-top .nav>li>a{*/
+/*color: #dd4814;*/
+/*}*/
+/*.navbar .nav li.dropdown>.dropdown-toggle .caret{border-top-color:#dd4814;border-bottom-color:#dd4814;}*/
+/*.navbar .nav li.dropdown.open>a.dropdown-toggle>b.caret:focus,.navbar .nav li.dropdownopen>a.dropdown-toggle>b.caret:hover{border-top-color: #ffffff;border-bottom-color:#ffffff;}*/
+
+/*.nav-collapse ul#main-menu-left>li.dropdown>.dropdown-toggle>a:hover{background-color: #E9E9E9;}*/
+.subnav-fixed>li>a{display: list-item;}
+.subnav-fixed{
+    left: 1%;
+    margin-top: 7%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.dropdown-menu{
+    opacity: 0.90;
+}
