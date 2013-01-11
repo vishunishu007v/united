@@ -27,12 +27,12 @@ root {
 /*.navbar .nav li.dropdown.open>a.dropdown-toggle>b.caret:focus,.navbar .nav li.dropdownopen>a.dropdown-toggle>b.caret:hover{border-top-color: #ffffff;border-bottom-color:#ffffff;}*/
 
 /*.nav-collapse ul#main-menu-left>li.dropdown>.dropdown-toggle>a:hover{background-color: #E9E9E9;}*/
-.subnav-fixed>li>a{display: list-item;}
+
 .subnav-fixed{
     left: 1%;
-    margin-top: 7%;
-    padding-top: 5px;
-    padding-bottom: 0px;
+    height: 70%;
+    margin-top: 5%;
+    padding-top: 1%;
 }
 
 .dropdown-menu{
